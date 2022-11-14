@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 async def cls(_, query: CallbackQuery):
     await query.message.delete()
 
-# EfendiMusicVaves düzenlenmiştir.
+# EfsaneMusicVaves düzenlenmiştir.
 
 @Client.on_message(command(["play", "oynat"]) 
                    & filters.group
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "EfendiMusicVaves"
+        user.first_name = "EfsaneMusicVaves"
     usar = user
     wew = usar.id
     try:
@@ -152,7 +152,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://i.ibb.co/9w7CwQ5/Logopit-1663987970479.png"
+        thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Yerel olarak eklendi"
@@ -198,13 +198,13 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("KELEBEK AİSLESİ GURUBU", url=f"https://t.me/kelebekailesi"),
+                InlineKeyboardButton("🔖 𝖲𝗍𝖺𝗋 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Starbotdestek"),
             ],
         ]
     )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://i.ibb.co/9w7CwQ5/Logopit-1663987970479.png"
+            thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -260,7 +260,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("KELEBEK AİLESİ GURUBU ", url=f"https://t.me/kelebekailesi"),
+                InlineKeyboardButton("🔖 𝖲𝗍𝖺𝗋 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Starbotdestek"),
             ],
         ]
     )
