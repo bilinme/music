@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 async def cls(_, query: CallbackQuery):
     await query.message.delete()
 
-# EfsaneMusicVaves düzenlenmiştir.
+# EfendiMusicVaves düzenlenmiştir.
 
 @Client.on_message(command(["play", "oynat"]) 
                    & filters.group
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "EfsaneMusicVaves"
+        user.first_name = "EfendiMusicVaves"
     usar = user
     wew = usar.id
     try:
@@ -198,7 +198,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("BALLAS GURUBU", url=f"https://t.me/Ballasresmi"),
+                InlineKeyboardButton("KELEBEK AİSLESİ GURUBU", url=f"https://t.me/kelebekailesi"),
             ],
         ]
     )
@@ -260,7 +260,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("BALLAS GURUBU ", url=f"https://t.me/Ballasresmi"),
+                InlineKeyboardButton("KELEBEK AİLESİ GURUBU ", url=f"https://t.me/kelebekailesi"),
             ],
         ]
     )
