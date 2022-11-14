@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Beni Gruba Ekle ➕", url=f"https://t.me/Mucisflasbot?startgroup=true"
+                        "➕ Beni Gruba Ekle ➕", url=f"https://t.me/efendimucis_bot?startgroup=true"
                     )
                 ],
                 [
@@ -44,10 +44,10 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "🔱 Asistanım", url="https://t.me/asistanmucisflas"
+                         "🔱 Asistanım", url="https://t.me/Lazkopatben"
                      ),
                      InlineKeyboardButton(
-                         "👤 Sahip", url="https://t.me/Master_lockee"
+                         "👤 Sahip", url="https://t.me/Lazkopatben"
                      )
                  ],
                  [
@@ -67,7 +67,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Beni Gruba Ekle ➕", url=f"https://t.me/Mucisflasbot?startgroup=true"
+                        "➕ Beni Gruba Ekle ➕", url=f"https://t.me/efendimucis_bot?startgroup=true"
                     )
                 ],
                 [
@@ -80,7 +80,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🖇️ Reklam", url="https://t.me/Master_lockee"
+                        "🖇️ Reklam", url="https://t.me/Lazkopatben"
                     )
                 ]
                 
