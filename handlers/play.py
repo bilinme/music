@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "EfsaneMusicVaves"
+        user.first_name = "derdoMusicVaves"
     usar = user
     wew = usar.id
     try:
@@ -198,7 +198,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🔖 𝖲𝗍𝖺𝗋 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Starbotdestek"),
+                InlineKeyboardButton("🔖 derdo 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Starbotdestek"),
             ],
         ]
     )
@@ -260,7 +260,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🔖 𝖲𝗍𝖺𝗋 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Starbotdestek"),
+                InlineKeyboardButton("🔖 derdo 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Starbotdestek"),
             ],
         ]
     )
